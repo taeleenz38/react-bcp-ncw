@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Chakra+Petch:wght@300;400;700&family=Inter:wght@400;500;700&display=swap');
+
+
+*, html {
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+  /* background: !important; */
+}
+
+body {
+  background: #08050A !important;
+  font-family: "Chakra Petch", sans-serif !important;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.772);
+
+  line-height: 35px;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover {
+  color: unset;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+section,
+footer {
+  padding: 60px 0px;
+}
+
+/* =========== custom scroll-bar ========= */
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: #343444;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2em;
+  background: linear-gradient(-45deg, #E4E5E8, #EEEDE7);
+}

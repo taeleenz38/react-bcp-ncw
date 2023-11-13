@@ -1,0 +1,99 @@
+@media only screen and (max-width: 992px) {
+  .nft__title {
+    font-size: 0.8rem !important;
+  }
+
+  .creator__info h6 {
+    font-size: 0.6rem !important;
+  }
+
+  .creator__info p {
+    font-size: 0.7rem !important;
+  }
+
+  .bid__btn {
+    padding: 4px 20px !important;
+    font-size: 0.6rem !important;
+  }
+
+  .history__link a {
+    font-size: 0.6rem !important;
+  }
+}
+
+.nft__content {
+  width: 100% !important;
+}
+
+
+.nft__title {
+  margin-bottom: 4px !important;
+  width: 100% !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nft__title p {
+  padding: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.nft__title a {
+  margin-left: 0.5rem !important;
+}
+
+.nft__title a:hover {
+  color: white !important;
+  text-decoration: underline;
+}
+
+.nft__img img {
+  width: 250px !important;
+  height: 250px !important;
+}
+
+.nft__content h5 {
+  color: #00B7FA !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.nft__content h6 {
+  color: #00B7FA !important;
+  font-size: 0.85rem !important;
+}
+
+.nft__content p {
+  color: white !important;
+}
+
+#create-btn-nft {
+  border-radius: 5px !important;
+}
+
+#create-btn-nft:hover {
+  color: #00B7FA !important;
+}
+
+.single__nft__card {
+  width: 300px;
+  margin: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: #00B7FA 0px 15px 20px -20px;
+}
+
+.nft__content button {
+  border-radius: 5px;
+  border: none;
+}
+
+.nft__content button:hover {
+  transform: scale(1.03);
+  transition-duration: 150ms;
+}
+
+.nft__content .bid__btn:hover {
+  color: white !important;
+}

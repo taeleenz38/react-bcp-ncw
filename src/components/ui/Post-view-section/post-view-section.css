@@ -1,0 +1,87 @@
+.single__post__item {
+  background: #FFF;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.single__post__side__item__left {
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.single__post__side__item_right {
+  background: #FFF;
+  border-radius: 5px;
+}
+
+.post__title {
+  color: #D1D1D1;
+}
+
+.post__item__content h5 a {
+  text-decoration: none;
+  color: #D1D1D1;
+}
+
+.post__item__content h5 {
+  text-decoration: none;
+  color: #D1D1D1;
+}
+
+.post__item__content p {
+  text-decoration: none;
+  color: #D1D1D1;
+}
+
+.single__post__item span i {
+  color: #D1D1D1;
+  padding: 15px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+.post__item__content {
+  margin-top: 5px !important;
+}
+
+.post__item__message {
+  margin-top: 5px !important;
+}
+
+.post__item__message p {
+  text-decoration: none;
+  color: #D1D1D1;
+}
+
+@media only screen and (max-width: 992px) {
+  .post__item__content h5 a {
+    font-size: 1rem;
+  }
+
+  .single__post__item p {
+    font-size: 0.8rem;
+    line-height: 25px;
+  }
+}
+
+.main__row {
+  border-color: #264653;
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 5px;
+  margin-top: 10px;
+  display: flexbox;
+  justify-content: left;
+}
+
+.main__row__base {
+  background: #FDFEFE;
+  border-radius: 5px;
+  box-shadow: #00B7FA 0px 10px 20px -22px;
+}
+
+.box {
+  box-sizing: border-box;
+  border: 3px solid transparent;
+  background-clip: padding-box;
+}

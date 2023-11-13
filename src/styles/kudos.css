@@ -1,0 +1,56 @@
+    .postContainer .Container {
+    width:500px;   
+}
+
+.kudos_details {
+    margin-top: 70px;
+    width: 90%;
+    height: auto;
+}
+
+.postContainer {
+    height: 100%;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.postContainer .postCreateContainer button {
+    background-color: #00B7FA !important;
+    color: white !important;
+}
+
+.postContainer .postCreateContainer button text {
+    color: white !important;
+    font-weight: 700;
+}
+
+#arrow1 {
+    position:fixed;
+    bottom: 0px;
+    width: 120px;
+}
+
+#arrow2 {
+    position:fixed;
+    right: 0px;
+    top: 70px;
+    width: 120px;   
+}
+
+#triangle1 {
+    position:fixed;
+    left: 25px;
+    top: -125px;
+    width: 250px;   
+    z-index: 2000;
+}
+
+#triangle2 {
+    position:fixed;
+    right: 25px;
+    bottom: -125px;
+    width: 250px;
+    z-index: 2200;
+}

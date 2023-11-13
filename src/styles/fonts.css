@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'NeoNeon';
+    src: local('NeoNeon'),
+        url('../fonts/Neoneon.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'NeoNeonMac';
+    src: local('NeoNeonMac'),
+        url('../fonts/__MACOSX/._Neoneon.otf') format('otf');
+}

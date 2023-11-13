@@ -1,0 +1,81 @@
+.WOF-hero__section__details {
+
+  /* width: 1395px; */
+  border-radius: 20px;
+}
+
+.WOF-details-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px;
+}
+/* @media only screen and (max-width: 992px) {
+    .hero__img {
+      width: 300px;
+    }
+  
+    .hero__section {
+      margin-top: 90px;
+    }
+  
+    .hero__content h2 {
+      font-size: 1.5rem;
+      line-height: 40px;
+    }
+  
+    .hero__content p {
+      font-size: 0.8rem;
+      line-height: 25px;
+    }
+  
+    .create__btn,
+    .explore__btn {
+      padding: 4px 25px !important;
+    }
+  
+    .create__btn a,
+    .explore__btn a {
+      font-size: 0.7rem;
+    }
+  } */
+
+/* @media only screen and (max-width: 576px) {
+    .hero__img {
+      width: 100%;
+      margin: auto;
+      margin-top: 50px;
+    }
+  } */
+
+.textarea {
+  resize: none;
+}
+
+.textarea::placeholder {
+  color: #A39D92;
+  opacity: 1;
+}
+
+.WOF-aboutProfile-subsection {
+  width: 100%;
+  border-radius: 20px;
+  background-color: #120C18;
+  padding: 1rem;
+}
+
+.WOF-aboutProfile-subsection1 {
+  width: 100%;
+  border-radius: 20px;
+  background-color: #120C18;
+  margin-bottom: 1.5rem;
+}
+
+.WOF-aboutProfile-subsection1 p {
+  color: white;
+}
+
+.subsection-text2 {
+  margin-top: 10px;
+}

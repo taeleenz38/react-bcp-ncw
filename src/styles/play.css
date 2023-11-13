@@ -1,0 +1,28 @@
+#arrow1 {
+    position:fixed;
+    bottom: 0px;
+    width: 120px;
+}
+
+#arrow2 {
+    position:fixed;
+    right: 0px;
+    top: 70px;
+    width: 120px;   
+}
+
+#triangle1 {
+    position:fixed;
+    left: 25px;
+    top: -125px;
+    width: 250px;   
+    z-index: 2000;
+}
+
+#triangle2 {
+    position:fixed;
+    right: 25px;
+    bottom: -125px;
+    width: 250px;
+    z-index: 2200;
+}

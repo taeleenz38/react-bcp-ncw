@@ -1,0 +1,82 @@
+.discover-container {
+    height: 100vh;
+    padding: 0;
+    padding-top: 90px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.discover-flex1 {
+    width: 80%;
+    margin-top: 1.5rem auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.discover-flex1 img {
+    width: 265px;
+    border-radius: 10%;
+    box-shadow: #00B7FA 0px 20px 30px -10px;
+}
+
+.discover-flex2 img {
+    width: 265px;
+    border-radius: 10%;
+    box-shadow: #00B7FA 0px 20px 30px -10px;
+    z-index: 200;
+}
+
+.discover-flex1 img:hover {
+    transform: translateY(-0.2rem);
+    cursor: pointer;
+    transition-duration: 300ms;
+    box-shadow: #E42575 0px 20px 30px -10px;
+}
+
+.discover-flex2 img:hover {
+    transform: translateY(-0.2rem);
+    cursor: pointer;
+    transition-duration: 300ms;
+    box-shadow: #E42575 0px 20px 30px -10px;
+}
+
+.discover-flex2 {
+    width: 80%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.discover-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.discover-item p {
+    margin-top: 1.25rem;
+    font-weight: 700;
+    color: white;
+}
+
+.discover-item2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.discover-item2 p {
+    margin-top: 1.25rem;
+    font-weight: 700;
+    color: white;
+}

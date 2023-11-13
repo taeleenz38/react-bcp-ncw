@@ -1,0 +1,16 @@
+.admin-btns:hover {
+    transform: scale(1.02);
+    transition-duration: 250ms;
+}
+
+.main__row__base {
+    background-color: rgb(18,12,24);
+}
+
+.single__post__side__item__right {
+    background-color: rgb(18,12,24) !important;
+}
+
+.single__post__item {
+    background-color: rgb(18,12,24) !important;
+}

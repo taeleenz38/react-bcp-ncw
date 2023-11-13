@@ -1,0 +1,90 @@
+.form__input input,
+.form__input textarea {
+  width: 100%;
+  padding: 7px 25px;
+  color: #fff;
+  font-size: 0.8rem;
+  background: transparent;
+  border: 1px solid rgba(221, 221, 221, 0.171);
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form__input {
+  margin-bottom: 20px;
+}
+
+.form__input label {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.form__input .upload__input {
+  padding: 40px 25px;
+}
+
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 576px) {
+  .create__item {
+    margin-top: 15px;
+  }
+}
+
+.input::placeholder { 
+  color: #7c7c7b;
+  opacity: 1; 
+}
+
+
+#arrow1 {
+  position:fixed;
+  bottom: 0px;
+  width: 120px;
+}
+
+#arrow2 {
+  position:fixed;
+  right: 0px;
+  top: 70px;
+  width: 120px;   
+}
+
+#triangle1 {
+  position:fixed;
+  left: 25px;
+  top: -125px;
+  width: 250px;   
+  z-index: 2000;
+}
+
+#triangle2 {
+  position:fixed;
+  right: 25px;
+  bottom: -125px;
+  width: 250px;
+  z-index: 2200;
+}
+
+h5 {
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.NFT-card-flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.NFT-preview {
+  display: flex;
+  flex-direction: column;
+}
+
+.NFT-details {
+  width: 70%;
+}
